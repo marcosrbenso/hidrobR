@@ -31,10 +31,16 @@ conventional(code_hidroweb,var)
 ```
 
 
-## Telemtery Station
+## Telemetric Station
 
 ### Station information
-[work in progress]
+
+The function list_of_stations retrieves the updated list of telemetric stations from the ANA Web Service.
+
+```r
+telemetric_stations <- list_of_stations()
+head(telemetric_stations)
+```
 
 ### Downloading station data
 
