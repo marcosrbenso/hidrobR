@@ -1,0 +1,24 @@
+Package: hidrobR
+Type: Package
+Title: Functions to download hidrological data from conventional and telemetric gauges from National Water Agency.
+Version: 0.1.0
+Author: Marcos Roberto Benso
+Maintainer: Marcos Roberto Benso <marcosbenso@gmail.com>
+Description: This package is aimed to help students and researchers to develop hydrological analysis and modeling
+              in Brazilian catchments using data from conventional and telemetric gauges from the Brazilian National Water Agency.
+              The functions help to download and visualize hydrological data in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+Imports: 
+    dplyr,
+    xml2,
+    tidyr,
+    httr,
+    lubridate
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
