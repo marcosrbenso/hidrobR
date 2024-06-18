@@ -11,7 +11,7 @@
 #' @examples
 #' code_hidroweb <- 75890000
 #' var = "cotas"
-#' conventional(code_hidroweb,cotas)
+#' conventional(code_hidroweb,var)
 
 
 conventional <- function(code_hidroweb,var){
