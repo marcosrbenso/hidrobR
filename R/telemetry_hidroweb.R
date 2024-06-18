@@ -78,7 +78,6 @@ list_of_telemetric_stations <- function(Estacoes = 0,origem = 0){
     )
 }
 
-list_of_station
 
 
 
