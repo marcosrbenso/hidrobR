@@ -17,5 +17,5 @@ Download data from convetional stations
 \examples{
 code_hidroweb <- 75890000
 var = "cotas"
-conventional(code_hidroweb,cotas)
+conventional(code_hidroweb,var)
 }
