@@ -25,9 +25,15 @@ head(prec_gauges)
 ```
 ### Downloading station data
 ```r
-code_hidroweb <- 75890000
-var = "cotas"
-conventional(code_hidroweb,var)
+CodEstacao <- 75890000
+DataInicio <- "01/01/2005"
+DataFim <- "01/01/2020"
+tipoDados <- 1
+nivelConsistencia <- 1
+
+conventional_data <- conventional(CodEstacao,DataInicio,DataFim,tipoDados,nivelConsistencia)
+head(conventional_data)
+
 ```
 
 
