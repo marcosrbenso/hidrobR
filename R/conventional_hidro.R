@@ -8,7 +8,7 @@
 #'
 #' @import jsonlite
 #' @import XML
-#' @import xlm2
+#' @import xml2
 #' @import dplyr
 #' @import tidyr
 #' @import rlang
