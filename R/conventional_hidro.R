@@ -11,6 +11,7 @@
 #' @import xlm2
 #' @import dplyr
 #' @import tidyr
+#' @import rlang
 #' @export conventional
 
 conventional <- function(CodEstacao,DataInicio,DataFim,tipoDados,nivelConsistencia){
