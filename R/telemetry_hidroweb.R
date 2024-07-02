@@ -4,8 +4,7 @@
 #' @param DataInicio character. Date of the beginning of the observation in the format 'day/month/Year'
 #' @param DataFim character. Date of the ending of the observation in the format 'day/month/Year'
 #'
-#' @return
-#' @export
+#' @export telemetry
 #' @import dplyr
 #' @import lubridate
 #' @import xml2
@@ -44,10 +43,9 @@ telemetry <- function(CodEstacao,DataInicio,DataFim){
 #' @import dplyr
 #' @import lubridate
 #' @import xml2
-#' @return
-#' @export
-#'
-#' @examples
+#' @export list_of_telemetric_stations
+
+
 list_of_telemetric_stations <- function(Estacoes = 0,origem = 0){
 
   url <- "http://telemetriaws1.ana.gov.br//ServiceANA.asmx/ListaEstacoesTelemetricas?status"

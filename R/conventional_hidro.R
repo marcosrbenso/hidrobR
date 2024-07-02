@@ -11,11 +11,8 @@
 #' @import xlm2
 #' @import dplyr
 #' @import tidyr
-#' @import RJSONIO
-#' @return
-#' @export
-#'
-#' @examples
+#' @export conventional
+
 conventional <- function(CodEstacao,DataInicio,DataFim,tipoDados,nivelConsistencia){
   url2 <- paste0("http://telemetriaws1.ana.gov.br/ServiceANA.asmx/HidroSerieHistorica?codEstacao=",
                 CodEstacao,
@@ -112,11 +109,5 @@ conventional <- function(CodEstacao,DataInicio,DataFim,tipoDados,nivelConsistenc
 }
 
 
-list_of_conventional_stations <- function(){
-
-  url <- "http://telemetriaws1.ana.gov.br/ServiceANA.asmx/HidroInventario?"
-  read_xml(url)
-
-}
 
 
