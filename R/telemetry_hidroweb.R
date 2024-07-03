@@ -74,6 +74,8 @@ list_of_telemetric_stations <- function(Estacoes = 0,origem = 0){
     data.frame(
       CodEstacao,Operadora,Bacia,Latitude,Longitude,Altitude,NomeRio,Origem,StatusEstacao
     )
+
+  return(list_of_station)
 }
 
 
