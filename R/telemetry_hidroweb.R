@@ -11,7 +11,7 @@
 #'
 #'
 #' @examples
-#' data <- get_data(65945400,DataInicio="01/01/2020",DataFim = "01/01/2021")
+#' data <- telemetry(65945400,DataInicio="01/01/2020",DataFim = "01/01/2021")
 #' head(data)
 #'
 telemetry <- function(CodEstacao,DataInicio,DataFim){
